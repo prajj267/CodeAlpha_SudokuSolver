@@ -31,7 +31,6 @@ Users can input puzzles, visualize the solving process, and interact with the gr
 1. Install [SFML 2.5.1](https://www.sfml-dev.org/download.php)
 2. Navigate to the project folder:
 
-```bash
 cd path/to/SudokuSolver
 
 
@@ -49,9 +48,35 @@ sfml-system-2.dll
 
 Run:
 
-bash
-Copy
-Edit
 sudoku.exe
+
+ How to Use
+Click on a cell and type a number (1–9)
+
+Press Enter or click Solve (if implemented) to begin solving
+
+Watch the backtracking algorithm visualize the process
+
+Press Escape or close the window to exit
+
+🧠 Concepts Used
+Backtracking algorithm
+
+2D arrays for grid representation
+
+SFML for GUI rendering and event handling
+
+Input validation and state management
+
+🙌 Acknowledgements
+SFML — Simple and Fast Multimedia Library
+
+Sudoku logic based on classic backtracking.
+
+End of README.
+
+
+
+
 
 
